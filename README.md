@@ -8,14 +8,15 @@ This is just a starter TypeORM installation which is helpful for people interest
 - Authentication (JWT)
 - File Uploader
 
-#Migration 
+## Migration 
 
-##RUN Migration:
+## RUN 
+Migration:
 To Create the Admin user:
  npm run migration:run 
  
 
-##Create Migration:
+## Create Migration:
 
 typeorm migration:create -n migrationName
 
